@@ -46,7 +46,7 @@ export default function SimpleBottomNavigation() {
     } else if (value === 2) {
       router.push("/Series");
     } else if (value === 3) {
-      router.push("/Search");
+      router.push("/Search/search");
     }
   }, [value]); //, router
 
