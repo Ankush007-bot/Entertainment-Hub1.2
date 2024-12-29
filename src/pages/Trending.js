@@ -47,8 +47,8 @@ const options={
 
   return (
     <div>
-      <span className={Styles.pageTitle}>Trending Today</span>
-      <div className={Styles.trending}>
+      <span className="pageTitle">Trending Today</span>
+      <div className="trending">
         {content &&
           content.map((c) => (
             <SingleContent
@@ -59,7 +59,7 @@ const options={
               date={c.first_air_date || c.release_date}
               media_type={c.media_type}
               vote_average={c.vote_average}
-              Styles={Styles}
+              // Styles={Styles}
             />
           ))}
       </div>

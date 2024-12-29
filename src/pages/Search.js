@@ -65,7 +65,7 @@ import Button from '@mui/material/Button';
     return (
       <div>
         <ThemeProvider theme={darkTheme}>
-          <div className={Styles.search}>
+          <div className="search}">
             <TextField
               style={{ flex: 1 }}
               className="searchBox"
@@ -96,7 +96,7 @@ import Button from '@mui/material/Button';
             <Tab style={{ width: "50%" }} label="Search TV Series" />
           </Tabs>
         </ThemeProvider>
-        <div className= {Styles.trending}>
+        <div className= "trending">
           {content &&
             content.map((c) => (
               <SingleContent
