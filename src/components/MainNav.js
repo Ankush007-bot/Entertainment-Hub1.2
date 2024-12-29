@@ -40,7 +40,7 @@ export default function SimpleBottomNavigation() {
   useEffect(() => {
     console.log(value,'value')
     if (value === 0) {
-      router.push("/Trendind/Trending");
+      router.push("/Trending/Trending");
     } else if (value === 1) {
       router.push("/Movies/Movies");
     } else if (value === 2) {
