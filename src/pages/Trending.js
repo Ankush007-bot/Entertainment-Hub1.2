@@ -1,5 +1,5 @@
 import axios from "axios";
-import Styles from '../Pages/Trending/Trending.module.css'
+//import Styles from './Trending/'
 //import "./Trending.css";
 import { useEffect, useState } from "react";
 import SingleContent from "../components/SingleContent/SingleContent";

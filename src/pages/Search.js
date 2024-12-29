@@ -11,7 +11,7 @@
   import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Button from '@mui/material/Button';
-  import Styles from "../Pages/Search/Search.module.css";
+  //import Styles from "./Search/Search.module.css"
   import SearchIcon from "@mui/icons-material/Search";
   import { useEffect, useState } from "react";
   import axios from "axios";
