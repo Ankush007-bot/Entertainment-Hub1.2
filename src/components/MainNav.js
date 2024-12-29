@@ -42,11 +42,11 @@ export default function SimpleBottomNavigation() {
     if (value === 0) {
       router.push("/");
     } else if (value === 1) {
-      router.push("/Movies/Movies");
+      router.push("/Movies");
     } else if (value === 2) {
-      router.push("/Series/Series");
+      router.push("/Series");
     } else if (value === 3) {
-      router.push("/Search/Search");
+      router.push("/Search");
     }
   }, [value]); //, router
 
