@@ -3,8 +3,8 @@
 import Image from "next/image";
 import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
-import Head from '@/components/Header/Header'
-import SimpleBottomNavigation from "@/components/MainNav";
+import Head from '../components/Header/Header'
+import SimpleBottomNavigation from "../components/SingleContent/SingleContent";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
